@@ -1,0 +1,33 @@
+NXTP is a python-based protocol that performs Handshake verification, trust scoring and port compliance analysis across network nodes
+It compliments existing transport security (like TLS) by evaluating behaviour and declrative consistency.
+
+FEATURES:
+
+> Modular architecture
+> MSG handshake engine
+> Trust scoring and verdict logic
+> Port compliance analysis
+> TLS and WHOIS recon
+> Session logging and hostile broadcast
+
+INSTALLATION:
+
+> git clone https://github.com/samuspy/NXTP.git
+> cd NXTP/release
+> python NXTPvr1.1.py
+
+USAGE:
+
+python NXTPvr1.1.py
+
+PROTOCOL FLOW
+ 
+> Greet packet construction
+> MSG handshake probe
+> Trust scoring
+> Port scan and compliance
+> Session logging
+
+Contributing:
+
+Pull requsts welcome. For major changes. Open an issue first to discuss what you'd like to modify.
